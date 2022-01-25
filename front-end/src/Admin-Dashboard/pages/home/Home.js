@@ -1,5 +1,3 @@
-
-
 import "./home.css";
 import WidgetLg from "../../components/widgetLg/WidgetLg";
 

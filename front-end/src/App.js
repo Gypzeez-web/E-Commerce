@@ -7,9 +7,8 @@ function App() {
   return (
     <BrowserRouter>
       <TopBar />
-      <div className="container">
-        <SideBar />
-        <Home/>
+      <div>
+        <Home/>>
       </div>
     </BrowserRouter>
   );

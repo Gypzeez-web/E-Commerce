@@ -1,11 +1,6 @@
 import "./sideBar.css";
-import {
-  LineStyle,
-  Security,
-  ContactMail,
-  ContactSupport,
-  Settings,
-} from "@material-ui/icons";
+import { Settings } from "@material-ui/icons";
+import { Icon } from "@iconify/react";
 
 import { Link } from "react-router-dom";
 
@@ -31,31 +26,40 @@ export default function Sidebar() {
             </Link>
             <Link to="/" className="link">
               <li className="sidebarListItem active">
-                <Security className="sidebarIcon" />
+                <Icon
+                  className="sidebarIcon"
+                  icon="mdi:shield-account-outline"
+                />
                 Super Admin
               </li>
             </Link>
             <Link to="/" className="link">
               <li className="sidebarListItem active">
-                <Security className="sidebarIcon" />
+                <Icon className="sidebarIcon" icon="mdi:account-star" />
                 Admin
               </li>
             </Link>
             <Link to="/" className="link">
               <li className="sidebarListItem active">
-                <ContactSupport className="sidebarIcon" />
+                <Icon
+                  className="sidebarIcon"
+                  icon="mdi:account-details-outline"
+                />
                 Customer Service
               </li>
             </Link>
             <Link to="/" className="link">
               <li className="sidebarListItem active">
-                <ContactMail className="sidebarIcon" />
+                <Icon className="sidebarIcon" icon="mdi:account-box-outline" />
                 Accountent
               </li>
             </Link>
             <Link to="/" className="link">
               <li className="sidebarListItem active">
-                <LineStyle className="sidebarIcon" />
+                <Icon
+                  className="sidebarIcon"
+                  icon="mdi:account-details-outline"
+                />
                 Content
               </li>
             </Link>
@@ -67,7 +71,6 @@ export default function Sidebar() {
               <Settings className="sidebarIcon" />
               Settings
             </li>
-            
           </ul>
         </div>
       </div>

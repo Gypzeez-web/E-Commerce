@@ -1,14 +1,26 @@
 import "./widgetLg.css";
 import { Delete, Edit } from "@material-ui/icons";
+import Checkbox from "@mui/material/Checkbox";
+import { Icon } from "@iconify/react";
+import Button from '@mui/material/Button';
+
 
 export default function WidgetLg() {
   return (
     <div className="widgetLg">
       <h3 className="widgetLgTitle">Super Admin</h3>
       <h4 className="text-center">User</h4>
+      <div>
+        <div>
+          Role : All <Icon icon="mdi:chevron-down" />  <Button variant="contained">Add Users</Button>
+        </div>
+      </div>
       <table className="widgetLgTable">
         <tr className="widgetLgTr">
-          <th className="widgetLgTh">Name</th>
+          <th className="widgetLgTh">
+            <Checkbox />
+            Name
+          </th>
           <th className="widgetLgTh">Email</th>
           <th className="widgetLgTh">Role</th>
           <th className="widgetLgTh">Recent Activity</th>
@@ -16,6 +28,7 @@ export default function WidgetLg() {
         </tr>
         <tr className="widgetLgTr">
           <td className="widgetLgUser">
+            <Checkbox />
             <img
               src="https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
               alt=""
@@ -32,6 +45,7 @@ export default function WidgetLg() {
         </tr>
         <tr className="widgetLgTr">
           <td className="widgetLgUser">
+            <Checkbox />
             <img
               src="https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
               alt=""
@@ -48,6 +62,7 @@ export default function WidgetLg() {
         </tr>
         <tr className="widgetLgTr">
           <td className="widgetLgUser">
+            <Checkbox />
             <img
               src="https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
               alt=""
@@ -64,6 +79,7 @@ export default function WidgetLg() {
         </tr>
         <tr className="widgetLgTr">
           <td className="widgetLgUser">
+            <Checkbox />
             <img
               src="https://images.pexels.com/photos/4172933/pexels-photo-4172933.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
               alt=""
