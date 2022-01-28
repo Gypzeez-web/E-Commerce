@@ -12,7 +12,7 @@ export default function WidgetLg() {
       <h4 className="text-center">User</h4>
       <div>
         <div>
-          Role : All <Icon icon="mdi:chevron-down" />  <Button variant="contained">Add Users</Button>
+          Role : All <Icon icon="mdi:chevron-down" />  <Button >Add Users</Button>
         </div>
       </div>
       <table className="widgetLgTable">

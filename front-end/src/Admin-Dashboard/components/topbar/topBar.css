@@ -2,9 +2,7 @@
     width: 100%;
     height: 50px;
     background-color: rgb(233, 190, 190);
-    position: sticky;
-    top: 0;
-    z-index: 999;
+   
   }
   
   .topbarWrapper {
@@ -15,12 +13,7 @@
     justify-content: space-between;
   }
   
-  .logo {
-    font-weight: bold;
-    font-size: 30px;
-    color: darkblue;
-    cursor: pointer;
-  }
+  
   
   .topRight{
       display: flex;

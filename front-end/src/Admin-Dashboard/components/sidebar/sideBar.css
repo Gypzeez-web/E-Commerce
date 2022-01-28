@@ -1,10 +1,18 @@
 
 .sidebar {
-    flex: 20%;
-    height: calc(100vh - 50px);
-    background-color: rgb(206, 206, 233);
-    position: sticky;
-    top: 50px;
+  float: left;
+  position: absolute;
+  width:20%;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  
+  /* white */
+  
+  background: #FFFFFF;
+  /* sidebar shadow */
+  
+  box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
    
   }
   
@@ -16,15 +24,22 @@
   .sidebarMenu {
     margin-bottom: 10px;
   }
-  
- 
+  .topLeft{
+    text-align: center;
+  }
+  .logo {
+    font-weight: bold;
+    font-size: 30px;
+    color: darkblue;
+    cursor: pointer;
+  }
   
   .sidebarList {
     list-style: none;
     padding: 5px;
     margin: 2px;
     background-color: rgb(240, 240, 255);
-
+    border-radius: 20px;
   }
   
   .sidebarListItem {
@@ -41,6 +56,12 @@
   }
   
   .sidebarIcon{
-      margin-right: 5px;
+      margin: 5px;
       font-size: 20px !important;
+  }
+  .img{
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
   }
